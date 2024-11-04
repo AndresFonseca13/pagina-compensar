@@ -188,8 +188,6 @@ header .container{
     top: 0;
 }
 
-elemento {
-}
 @media (max-width: 1330px) {
   .cmp-logo {
     width: 200px;
