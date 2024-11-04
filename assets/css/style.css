@@ -4,6 +4,7 @@ body{
     line-height: 32px;
     color: #00233b;
     font-weight: 400;
+    margin: 0;
 }
 
 .index-container{
@@ -156,23 +157,112 @@ body{
     }
 }
 header{
+    min-height: 161px;
     display: flex;
+    position: relative;
     z-index: 9999;
     border-bottom: 1px solid #e6e6e6;
 }
 .container{
 
     flex-wrap: wrap;
+    
+
 }
-.search-btn {
-    width: 42px;
-    height: 42px;
-    background: #f5f5f5 url(assets/img/search-icon-m.svg) no-repeat center center;
-    border-radius: 50%;
-    display: inline-block;
+header .container{
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    max-width: calc(100% - 40px);
+}
+.cmp-logo{
+    height: 40px;
+     display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+elemento {
+}
+@media (max-width: 1330px) {
+  .cmp-logo {
+    width: 200px;
+
+  }
+}
+.cmp-logo {
+  width: 336px;
+
+  height: 40px;
+
+  display: inline-block;
+
+  position: absolute;
+
+  top: 0;
+
+}
+@media (min-width: 772px) and (max-width: 1330px) {
+  .cmp-logo {
+    padding-top: 15px;
+
+    width: 250px !important;
+
+    margin-bottom: -50px;
+
+  }
+}
+.cmp-logo img {
+    width: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    border-style: none;
+}
+@media (min-width: 1024px) {
+    .right-header {
+      display: flex !important;
+    }
+}
+.right-header {
     margin-left: auto;
-    cursor: pointer;
+    flex-direction: column-reverse;
 }
+.main-menu{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    box-sizing: border-box;
+}
+.search-container {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 10px; /* Espaciado desde la parte superior */
+    right: 10px; /* Espaciado desde la derecha */
+}
+
+.cmp-search-form {
+    display: none; /* Oculta el formulario por defecto */
+}
+
+.search-inner {
+    display: flex; /* Alinea el input y el botón en línea */
+}
+
 @media (max-width: 1023px) {
     .close-icon {
         visibility: hidden;
@@ -189,6 +279,15 @@ header{
     display: none;
     z-index: 2;
 }
+.cmp-search-form label {
+    color: rgb(0, 35, 59);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    display: block;
+    margin: 0 0 16px;
+  }
 .search-inner input[type="submit"] {
 	background-color: rgb(255, 102, 0);
 	border-radius: 0px;
@@ -207,9 +306,9 @@ header{
 	border-radius: 3px;
 	margin-left: 15px;
 }
-input[type="submit"],
-button,
-input[type="button"] {
+
+.search-inner button {
+    
 	background-color: rgb(255, 102, 0);
 	border-radius: 0px;
 	border-width: 0px;
@@ -227,6 +326,35 @@ input[type="button"] {
 	cursor: pointer;
 	transition: all 0.2s ease-in;
 	border-radius: 3px;
+}
+#work-btn{
+    background-color: hsla(36, 94%, 49%, 0.92);
+	border-radius: 0px;
+	border-width: 0px;
+	border-color: rgb(140, 140, 140);
+	border-style: solid;
+	padding: 18px 32px;
+	color: rgb(255, 255, 255);
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: normal;
+	text-transform: none;
+	height: 64px;
+	min-width: 100px;
+	cursor: pointer;
+	transition: all 0.2s ease-in;
+	border-radius: 3px;
+}
+@media (max-width: 1023px) {
+    .search-btn {
+        width: 42px;
+        height: 42px;
+        background: #f5f5f5 url(assets/img/search-icon-m.svg) no-repeat center center;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: auto;
+        cursor: pointer;
+    }
 }
 @media (max-width:1023px){
 .menu-btn{

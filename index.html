@@ -12,13 +12,19 @@
 <body>
     <header>
         <div class="container"> <!--Etiqueta div es basicamente una caja -->
-            <form class="Compensar-search-form" method="get"  action="https://ucompensar.edu.co">
+            <div class="search-container">
+             <button class="search-icon" id="searchToggle">
+                    <img src="assets/img/search-icon-m.svg" alt="Buscar">
+             </button>
+             <form class="cmp-search-form" method="get"  action="https://ucompensar.edu.co">
                 <label for="search">¿Qué estas buscando?</label>
                 <div class="search-inner">
                     <input type="search" name="s" placeholder="Busca otra cosa">
-                    <input type="submit" value="Buscar">
+                    <button type="submit">Buscar</button>
+                    
                 </div>
-            </form>
+                </form>
+            </div>
             <a class="cmp-logo" href="https://ucompensar.edu.co">
                 <img src="https://ucompensar.edu.co/wp-content/uploads/2021/04/main-logo.svg" alt="UCompensar">
             </a>
@@ -58,6 +64,7 @@
 
                 </ul>
             </div>
+            <button type="submit" id="work-btn">Trabaja con nosotros</button>
             <div class="main-menu">
                 <ul class="menu">
                     <li>
