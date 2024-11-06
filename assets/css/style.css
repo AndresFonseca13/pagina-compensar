@@ -1,0 +1,242 @@
+/*SECCION DE MATRICULAS ABIERTAS*/
+.seccion-aspirantes{
+    background-color: #F8F7F5;
+    padding: 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 335px;
+    border-radius: 8px;
+    /*box-shadow: 0 4px 12px rgba(0,0,0,0.1);*/
+}
+.seccion-aspirantes h2{
+    color: #000a14;
+    font-size: 40px;
+    font-weight: sans-serif;
+    margin-bottom: 15px;
+
+}
+.seccion-aspirantes p{
+    font-size: 18px;
+    color: #333;
+    max-width: 1035px;
+    margin: auto 0;
+    line-height: 1.6;
+    font-weight: helvetica;
+
+}
+
+/*SECCION DE PERFIL ESTUDIANTIL*/
+.seccion-perfil{
+    background-color: #fff;
+    padding: 50px;
+    margin: 20px auto;
+    max-width: 1250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*box-shadow: 0 4px 12px rgba(0,0,0,0.1);*/
+    border-radius: 10px;
+    gap: 30px;
+}
+.contenedor-contenido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 150px;
+
+}
+.seccion-izquierda{
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+.seccion-izquierda img{
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    /*box-shadow: 0 4px 8px rgba(0,0,0,0.1);*/
+}
+.seccion-izquierda h2{
+    color: #ff6600;
+    font-size: 32px;
+    font-weight: arial;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.seccion-izquierda h2::after{
+    content:"";
+    display: block;
+    width: 245px;
+    height: 2px;
+    background-color: #ff6600;
+    margin: 8px 0;
+    
+}
+.seccion-izquierda p{
+    font-size: 18px;
+    color:#00233b;
+    line-height: 32px;
+    max-width: 1000px;
+    margin: 0 0 20px;
+    text-align: left;
+    font-weight: 400;
+}
+.seccion-derecha{
+    flex: 1;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -220px;
+}
+.seccion-derecha h2{
+    color: #000f1d;
+    font-size: 35px;
+    font-weight: helvetica;
+    margin-bottom: 15px;
+}
+.seccion-derecha ul{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 0 20px 0;
+}
+.seccion-derecha ul li::before{
+    content: "•";
+    color: #ff6600;
+    font-weight: helvetica;
+    position:absolute;
+    left: 0;
+}
+.seccion-derecha ul li{
+    font-size: 20px;
+    color: #333;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 8px;
+
+}
+.boton-descarga {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: arial;
+    color: white;
+    cursor: pointer;
+}
+.boton-descarga .icono {
+    background-color: #3498db; 
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton-descarga .icono img {
+    width: 20px;
+    height: auto;
+}
+.boton-descarga span {
+    background-color: #486D8C;
+    padding: 10px 90px;
+    color: white;
+}
+/*Inicio de CCS de footer*/
+.footer {
+    background-color: #404040; 
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.contenedor-principal {
+    display: flex;
+    justify-content: center; 
+    gap: 50px; 
+    align-items: auto;
+    flex-wrap: wrap;
+    margin-left: auto; 
+}
+
+.section-redes {
+    background-color: #404040;
+    padding: 15px;
+    flex: 1;
+    margin-left: auto;
+}
+h4{
+    color: #ff6600;
+}
+.social-iconos {
+    padding: 5px;
+    flex: 1;
+    margin-right: auto;
+}
+.social-iconos a img {
+    width: 30px; 
+    height: 30px;
+}
+.section-ubicacion {
+    background-color: #505050; 
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: auto;
+}
+.contenedor-certificaciones {
+    display: flex;
+    justify-content: flex-end; /* Empuja el contenido hacia la derecha */
+    width: 100%; /* Asegúrate de que ocupa todo el ancho disponible */
+}
+.certificaciones img {
+    width: 80px;
+    margin-right: auto;}
+
+
+.links-contenedor {
+    border-top: 1px solid #666; 
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-container h3 {
+    color: #ff6600;
+}
+
+.links-container ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.links-container ul li a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.boton-destacado {
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/*METODO DE CONTROL*/
+div {
+    border: 1px solid red; 
+}
+/*----------------*/
+
+
