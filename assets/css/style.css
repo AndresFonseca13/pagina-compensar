@@ -903,3 +903,138 @@ h3 {
     font-size: 11px;
     padding: 8px 12px;
 }
+
+
+/*Seccion Andres*/
+.h2titulo {
+    text-align: center;
+    color: #1a1a1a;
+    margin: 20px 0;
+    font-size: 35px;
+    line-height: 1.2;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+/* Contenedor de las tarjetas de titulaciones */
+.titulos-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.titulo-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-card h3 {
+    font-size: 20px;
+    color: #333;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.titulo-card p {
+    color: #666;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #00233b;
+    font-weight: 400;
+}
+
+.titulo-card span {
+    display: block;
+    line-height: 2;
+}
+
+.titulo-card a {
+    color: #ff6600;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.titulo-card a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor de campo laboral */
+.campo-laboral {
+    padding: 15px;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.campo-laboral h3 {
+    font-size: 1.5rem;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+/* Lista de Campo Laboral con estilo */
+.campo-laboral-lista {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 250px;
+    text-align: left;
+    color: black; /* Color de texto negro */
+}
+
+.campo-laboral-lista li {
+    font-size: 13px;
+    color: #00233b; /* Asegura que el texto sea completamente negro */
+    padding: 5px 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0;      /* Elimina el margen entre los elementos */
+    padding: 0;     /* Elimina el padding entre los elementos */
+}
+
+/* Estilos para las imágenes */
+.imagen-item {
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.imagen-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Fila de 3 columnas centrada */
+.fila-3-columnas {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    gap: 0px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    justify-items: center;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .fila-3-columnas {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .campo-laboral {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+/*Seccion Andres*/
