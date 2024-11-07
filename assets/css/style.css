@@ -140,6 +140,100 @@ body{
     font-weight: bold;
 }
 
+/*Estilos formulario*/
+
+.contenedor-form {
+    text-align: center;
+    justify-content: center;
+    margin: 0 17rem;
+}
+
+.contenedor-form h4 {
+    font-size: 45px !important;
+    color: #00233b;
+    font-weight: bold;
+}
+
+.contenedor-form hr{
+    width: 100%;
+    margin: 0 0 20px 0;
+    border: 1px solid #ff6600;
+}
+
+.names{
+    display: flex;
+    justify-content: space-around;
+}
+
+.names input{
+    color: #70727c;
+    width: 625px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 1px solid #70727c;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact input{
+    color: #70727c;
+    width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 1px solid #70727c;
+}
+
+.listas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.listas p{
+    text-align: left;
+    margin: 0 0 -15px 10px;
+}
+
+.listas select{
+    color: #70727c;
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 1px solid #70727c;
+}
+
+.politica{
+    display: flex;
+    justify-content: left;
+    margin: 0 0 0 10px;
+}
+
+.politica input{
+    width: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.politica button{
+    background: #ff6600;
+    border-radius: 15px;
+    color: #ffffff;
+    margin: 10px 10px;
+    padding: 15px 50px;
+    border: white 1px solid;
+}
+
+.politica label{
+    margin-top: 15px;
+    font-size: 12px;
+    color: #000000;
+}
+
 /* Css header */
 
 @media (max-width: 1023px) {
