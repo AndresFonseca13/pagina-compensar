@@ -558,6 +558,12 @@ ul {
 
 
 /*Estilos del sub-menu*/
+.historia-menu {
+    left: 30vw !important;
+}
+.historia-menu> ul {
+    height: 40vh !important;
+}
 /*mostrar menu*/
 .menu > li {
     position: relative;
@@ -636,6 +642,7 @@ ul {
 .background-menu li {
     padding-left: 25px;
     transition: all 0.3s ease;
+    background-color: white;
 }
 .background-menu a {
     font-size: 13px !important;
