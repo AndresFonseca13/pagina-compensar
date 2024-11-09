@@ -421,11 +421,10 @@ ul {
 }
 #work-btn{
     background-color: hsla(36, 94%, 49%, 0.92);
-	border-radius: 0px;
-	border-width: 0px;
+	border-radius: 18px;
 	border-color: rgb(140, 140, 140);
 	border-style: solid;
-	padding: 18px 32px;
+	padding: 5px 41px;
 	color: rgb(255, 255, 255);
 	font-size: 12px;
 	letter-spacing: 1px;
@@ -435,7 +434,7 @@ ul {
 	min-width: 100px;
 	cursor: pointer;
 	transition: all 0.2s ease-in;
-	border-radius: 3px;
+	
 }
 @media (max-width: 1023px) {
     .search-btn {
